@@ -24,6 +24,7 @@ struct tnode * addtree(struct tnode * p, char * w)
         p->word = strdup(w);
         p->count = 1;
         p->left = p->right = NULL;
+        return p;
     }
     cond = strcmp(w, p->word);
     if(cond == 0)

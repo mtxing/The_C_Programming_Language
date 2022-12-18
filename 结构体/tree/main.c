@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<ctype.h>
 #include<string.h>
+
 #include "tree.c"
 #include "getword.c"
 
